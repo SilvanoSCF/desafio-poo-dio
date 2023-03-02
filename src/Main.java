@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -16,6 +17,8 @@ public class Main {
         curso2.setTitulo("Curso de Logica");
         curso2.setDescricao("Descrição curso de logica");
         curso2.setCargaHoraria(12);
+
+        Conteudo conteudo = new Curso();    //Polimorfismo
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria");
